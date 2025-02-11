@@ -1,0 +1,15 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = ("com.eample.demo.controller"))
+public class SimpleSpringBootAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SimpleSpringBootAppApplication.class, args);
+	}
+
+}
